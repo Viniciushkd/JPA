@@ -9,3 +9,16 @@ Alterar o [Persistence Connection](#), caso necessário
 ```
 properties
 ```
+
+## Executar Testes
+Executar main
+```
+App.class 
+```
+
+### Pessoa.class | Curso.class
+Descomentar o trecho 
+```
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+```
+Caso não vá utilizar App.class
